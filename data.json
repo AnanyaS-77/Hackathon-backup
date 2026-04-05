@@ -1,1 +1,448 @@
-
+{
+    "XQF482K": {
+        "team_name": "Team 1",
+        "answers": {
+            "round1": "ALPHA1",
+            "round2": "BINARY1",
+            "round3": "LOOP1",
+            "round4": "VECTOR1"
+        },
+        "attempts": {
+            "round1": 2,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {
+            "round1": 1775416444.507158
+        }
+    },
+    "LMP193Z": {
+        "team_name": "Team 2",
+        "answers": {
+            "round1": "ALPHA2",
+            "round2": "BINARY2",
+            "round3": "LOOP2",
+            "round4": "VECTOR2"
+        },
+        "attempts": {
+            "round1": 1,
+            "round2": 1,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {
+            "round1": 1775417319.9012108
+        }
+    },
+    "TRB750A": {
+        "team_name": "Team 3",
+        "answers": {
+            "round1": "ALPHA3",
+            "round2": "BINARY3",
+            "round3": "LOOP3",
+            "round4": "VECTOR3"
+        },
+        "attempts": {
+            "round1": 1,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {
+            "round1": 1775417320.741676
+        }
+    },
+    "KZP641M": {
+        "team_name": "Team 4",
+        "answers": {
+            "round1": "ALPHA4",
+            "round2": "BINARY4",
+            "round3": "LOOP4",
+            "round4": "VECTOR4"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "QWE839X": {
+        "team_name": "Team 5",
+        "answers": {
+            "round1": "ALPHA5",
+            "round2": "BINARY5",
+            "round3": "LOOP5",
+            "round4": "VECTOR5"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "BNV204L": {
+        "team_name": "Team 6",
+        "answers": {
+            "round1": "ALPHA6",
+            "round2": "BINARY6",
+            "round3": "LOOP6",
+            "round4": "VECTOR6"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "HGT592Q": {
+        "team_name": "Team 7",
+        "answers": {
+            "round1": "ALPHA7",
+            "round2": "BINARY7",
+            "round3": "LOOP7",
+            "round4": "VECTOR7"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "YUI731P": {
+        "team_name": "Team 8",
+        "answers": {
+            "round1": "ALPHA8",
+            "round2": "BINARY8",
+            "round3": "LOOP8",
+            "round4": "VECTOR8"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "PLM864S": {
+        "team_name": "Team 9",
+        "answers": {
+            "round1": "ALPHA9",
+            "round2": "BINARY9",
+            "round3": "LOOP9",
+            "round4": "VECTOR9"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "ASD275K": {
+        "team_name": "Team 10",
+        "answers": {
+            "round1": "ALPHA10",
+            "round2": "BINARY10",
+            "round3": "LOOP10",
+            "round4": "VECTOR10"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "ZXC918D": {
+        "team_name": "Team 11",
+        "answers": {
+            "round1": "ALPHA11",
+            "round2": "BINARY11",
+            "round3": "LOOP11",
+            "round4": "VECTOR11"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "GHJ460R": {
+        "team_name": "Team 12",
+        "answers": {
+            "round1": "ALPHA12",
+            "round2": "BINARY12",
+            "round3": "LOOP12",
+            "round4": "VECTOR12"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "IKL357W": {
+        "team_name": "Team 13",
+        "answers": {
+            "round1": "ALPHA13",
+            "round2": "BINARY13",
+            "round3": "LOOP13",
+            "round4": "VECTOR13"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "MNB629T": {
+        "team_name": "Team 14",
+        "answers": {
+            "round1": "ALPHA14",
+            "round2": "BINARY14",
+            "round3": "LOOP14",
+            "round4": "VECTOR14"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "OPQ741V": {
+        "team_name": "Team 15",
+        "answers": {
+            "round1": "ALPHA15",
+            "round2": "BINARY15",
+            "round3": "LOOP15",
+            "round4": "VECTOR15"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "RTY852N": {
+        "team_name": "Team 16",
+        "answers": {
+            "round1": "ALPHA16",
+            "round2": "BINARY16",
+            "round3": "LOOP16",
+            "round4": "VECTOR16"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "FGH913B": {
+        "team_name": "Team 17",
+        "answers": {
+            "round1": "ALPHA17",
+            "round2": "BINARY17",
+            "round3": "LOOP17",
+            "round4": "VECTOR17"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "JKL284C": {
+        "team_name": "Team 18",
+        "answers": {
+            "round1": "ALPHA18",
+            "round2": "BINARY18",
+            "round3": "LOOP18",
+            "round4": "VECTOR18"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "VBN605E": {
+        "team_name": "Team 19",
+        "answers": {
+            "round1": "ALPHA19",
+            "round2": "BINARY19",
+            "round3": "LOOP19",
+            "round4": "VECTOR19"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    },
+    "QAZ739H": {
+        "team_name": "Team 20",
+        "answers": {
+            "round1": "ALPHA20",
+            "round2": "BINARY20",
+            "round3": "LOOP20",
+            "round4": "VECTOR20"
+        },
+        "attempts": {
+            "round1": 0,
+            "round2": 0,
+            "round3": 0,
+            "round4": 0
+        },
+        "completed": {
+            "round1": false,
+            "round2": false,
+            "round3": false,
+            "round4": false
+        },
+        "timestamps": {}
+    }
+}

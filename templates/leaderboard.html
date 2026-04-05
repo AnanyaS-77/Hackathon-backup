@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Arena | Leaderboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="theme-cyber page-leaderboard">
+  <div class="background-grid"></div>
+  <div class="background-glow background-glow-one"></div>
+  <div class="background-glow background-glow-two"></div>
 
+  <main class="page-shell leaderboard-shell">
+    <header class="leaderboard-header glass-panel">
+      <div>
+        <p class="eyebrow">Live Ranking Matrix</p>
+        <h1>Leaderboard</h1>
+        <p class="hero-copy">Real-time team standings with completion progress, attempt efficiency, and a polished competition pulse.</p>
+      </div>
+      <div class="topbar-actions">
+        <a href="/dashboard" class="button-secondary">Back to Dashboard</a>
+        <a href="/" class="button-ghost">Home</a>
+      </div>
+    </header>
+
+    <section class="leaderboard-list" data-leaderboard>
+      {% for t in leaderboard %}
+        {% set top_class = "top-gold" if loop.index == 1 else "top-silver" if loop.index == 2 else "top-bronze" if loop.index == 3 else "" %}
+        {% set percent = (t.rounds / 4 * 100) | round(0, "floor") %}
+        <article class="leaderboard-card glass-panel {{ top_class }}" data-rank="{{ loop.index }}" style="--stagger: {{ loop.index0 }}">
+          <div class="leader-rank">
+            <span class="rank-label">Rank</span>
+            <strong>#{{ loop.index }}</strong>
+          </div>
+
+          <div class="leader-main">
+            <div class="leader-heading">
+              <h2>{{ t.name }}</h2>
+              <span class="leader-chip">{{ t.rounds }}/4 rounds</span>
+            </div>
+
+            <div class="leader-meta">
+              <span>Attempts: {{ t.attempts }}</span>
+              <span>
+                {% if t.rounds < 4 %}
+                  Awaiting finish
+                {% else %}
+                  Completion locked
+                {% endif %}
+              </span>
+            </div>
+
+            <div class="progress-track" aria-hidden="true">
+              <div class="progress-bar" style="width: {{ percent }}%"></div>
+            </div>
+          </div>
+
+          <div class="leader-score">
+            <span class="score-label">Progress</span>
+            <strong>{{ percent }}%</strong>
+          </div>
+        </article>
+      {% endfor %}
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

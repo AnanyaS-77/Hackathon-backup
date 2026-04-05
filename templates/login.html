@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Arena | Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="theme-cyber page-login">
+  <div class="background-grid"></div>
+  <div class="background-glow background-glow-one"></div>
+  <div class="background-glow background-glow-two"></div>
+  <div class="particles" aria-hidden="true"></div>
 
+  <main class="page-shell login-shell">
+    <section class="hero-panel glass-panel">
+      <p class="eyebrow">You are here because we fucked up and we are...</p>
+      <h1 class="hero-title">Clueless</h1>
+      <p class="hero-copy">
+        Enter your team access code to unlock the challenge console, track round progress,
+        and compete live on the leaderboard.
+      </p>
+
+      <div class="hero-metrics">
+        <div class="metric-chip">
+          <span class="metric-label">Theme</span>
+          <strong>Cyber Console</strong>
+        </div>
+        <div class="metric-chip">
+          <span class="metric-label">Mode</span>
+          <strong>Live Rounds</strong>
+        </div>
+        <div class="metric-chip">
+          <span class="metric-label">Status</span>
+          <strong>Secure Entry</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="auth-card glass-panel glow-panel">
+      <div class="panel-header">
+        <span class="panel-kicker">Access Node</span>
+        <h2>Login</h2>
+        <p>Use your assigned team code to enter the arena.</p>
+      </div>
+
+      <form method="POST" class="auth-form">
+        <label class="input-group">
+          <span class="input-label">Team Code</span>
+          <input name="team_code" placeholder="TEAM001" autocomplete="off" required>
+          <span class="input-outline"></span>
+        </label>
+
+        <button type="submit" class="button-primary ripple-target">Enter Arena</button>
+      </form>
+
+      <p class="error-banner {% if error %}visible{% endif %}" aria-live="polite">
+        {{ error or " " }}
+      </p>
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
