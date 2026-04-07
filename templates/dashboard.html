@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hackathon Arena | Dashboard</title>
+  <title>Clueless | Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -18,12 +18,13 @@
     <header class="topbar glass-panel">
       <div>
         <p class="eyebrow">Team Console</p>
-        <h1>{{ team.team_name }}</h1>
+        <h1>{{ team_name }}</h1>
         <p class="topbar-subtitle">Track your round progress, manage attempts, and stay leaderboard-ready.</p>
       </div>
 
       <div class="topbar-actions">
         <a href="/leaderboard" class="button-secondary">View Leaderboard</a>
+        <a href="/admin" class="button-ghost">Admin Panel</a>
         <a href="/logout" class="button-ghost">Logout</a>
       </div>
     </header>
@@ -35,7 +36,7 @@
       </article>
       <article class="summary-card glass-panel">
         <span class="summary-label">Total Attempts Used</span>
-        <strong>{{ team.attempts.values() | sum }}</strong>
+        <strong>{{ total_attempts }}</strong>
       </article>
       <article class="summary-card glass-panel">
         <span class="summary-label">Challenge State</span>
@@ -60,7 +61,19 @@
           <div class="round-card-header">
             <div>
               <p class="round-kicker">Challenge Node {{ "%02d" % loop.index }}</p>
-              <h2>{{ round.label }}</h2>
+              <h2>
+                {% if round.id == "round1" %}
+                  Game 1: The Road Not Taken
+                {% elif round.id == "round2" %}
+                  Game 2: Taare Zameen Par
+                {% elif round.id == "round3" %}
+                  Game 3: Andhadhun
+                {% elif round.id == "round4" %}
+                  Game 4: Tu samjha? Naii tu nai Samjha
+                {% else %}
+                  {{ round.label }}
+                {% endif %}
+              </h2>
             </div>
             <span class="status-pill {{ round.status }}">{{ round.status }}</span>
           </div>
@@ -77,6 +90,7 @@
           </div>
 
           <form method="POST" class="round-form">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
             <input type="hidden" name="round" value="{{ round.id }}">
             <label class="input-group">
               <span class="input-label">Codeword Submission</span>
@@ -105,6 +119,23 @@
               {% endif %}
             </button>
           </form>
+
+          <div class="round-actions">
+            {% if round.arena_url and round.status != "locked" %}
+              <a
+                href="{{ round.arena_url }}"
+                class="button-secondary ripple-target"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enter Arena
+              </a>
+            {% else %}
+              <span class="button-secondary button-disabled">
+                Arena Locked
+              </span>
+            {% endif %}
+          </div>
         </article>
       {% endfor %}
     </section>

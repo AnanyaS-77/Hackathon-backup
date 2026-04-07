@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.local
+arena.sqlite3
+arena.sqlite3-shm
+arena.sqlite3-wal
+
+# Keep actual event data out of version control when possible.
+data.actual.json

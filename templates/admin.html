@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clueless | Admin Panel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="theme-cyber page-dashboard">
+  <div class="background-grid"></div>
+  <div class="background-glow background-glow-one"></div>
+  <div class="background-glow background-glow-two"></div>
+
+  <main class="page-shell dashboard-shell">
+    <header class="topbar glass-panel">
+      <div>
+        <p class="eyebrow">Admin Console</p>
+        <h1>Round Controls</h1>
+        <p class="topbar-subtitle">Manage which rounds are live for every team from a single dashboard.</p>
+      </div>
+
+      <div class="topbar-actions">
+        <a href="/leaderboard" class="button-secondary">View Leaderboard</a>
+        <a href="/admin/logout" class="button-ghost">Logout</a>
+      </div>
+    </header>
+
+    <section class="dashboard-summary">
+      <article class="summary-card glass-panel">
+        <span class="summary-label">Unlocked Rounds</span>
+        <strong>{{ unlocked_count }}/4</strong>
+      </article>
+      <article class="summary-card glass-panel">
+        <span class="summary-label">Locked Rounds</span>
+        <strong>{{ locked_count }}/4</strong>
+      </article>
+      <article class="summary-card glass-panel">
+        <span class="summary-label">Security</span>
+        <strong>{% if admin_password_hint %}Default Password Active{% else %}Custom Password Active{% endif %}</strong>
+      </article>
+    </section>
+
+    <p class="status-toast {% if message %}visible{% endif %}" aria-live="polite">
+      {{ message or " " }}
+    </p>
+
+    {% if admin_password_hint %}
+      <p class="status-toast visible admin-warning" aria-live="polite">
+        Admin password is using the local fallback value. Set the <code>ADMIN_PASSWORD</code> environment variable before production use.
+      </p>
+    {% endif %}
+
+    <section class="glass-panel summary-card">
+      <span class="summary-label">Seed Sync</span>
+      <strong>Refresh SQLite From JSON</strong>
+      <p class="admin-note">
+        `Sync JSON Changes` updates team names, login codes, answers, and round locks from `data.json` and `settings.json` without wiping live progress.
+        `Reset Progress From JSON` also overwrites team progress using the values currently stored in `data.json`.
+      </p>
+      <form method="POST" class="admin-actions-grid">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <button type="submit" name="action" value="sync_seed" class="button-secondary ripple-target">
+          Sync JSON Changes
+        </button>
+        <button type="submit" name="action" value="reset_from_seed" class="button-ghost ripple-target">
+          Reset Progress From JSON
+        </button>
+      </form>
+    </section>
+
+    <section class="glass-panel summary-card">
+      <span class="summary-label">Danger Zone</span>
+      <strong>Reset Live Event Progress</strong>
+      <p class="admin-note">
+        This clears attempts, completion flags, and timestamps for every team in the live database.
+        Teams, answers, and round lock settings stay unchanged.
+      </p>
+      <form method="POST" class="auth-form">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <input type="hidden" name="action" value="reset_event">
+        <label class="input-group">
+          <span class="input-label">Type RESET To Confirm</span>
+          <input name="confirmation" placeholder="RESET" autocomplete="off" required>
+          <span class="input-outline"></span>
+        </label>
+        <button type="submit" class="button-ghost ripple-target">Reset Event Progress</button>
+      </form>
+    </section>
+
+    <section class="round-grid">
+      {% for round in round_cards %}
+        <article class="round-card glass-panel {{ round.status }}" style="--stagger: {{ loop.index0 }}">
+          <div class="card-noise"></div>
+          <div class="round-card-header">
+            <div>
+              <p class="round-kicker">Control Node {{ "%02d" % loop.index }}</p>
+              <h2>{{ round.label }}</h2>
+            </div>
+            <span class="status-pill {{ round.status }}">{{ round.status }}</span>
+          </div>
+
+          <div class="round-stats">
+            <div>
+              <span class="stat-label">Arena Link</span>
+              <strong class="admin-stat-copy">{% if round.arena_url %}Ready{% else %}Pending{% endif %}</strong>
+            </div>
+            <div>
+              <span class="stat-label">Current Access</span>
+              <strong class="admin-stat-copy">{{ round.status | title }}</strong>
+            </div>
+          </div>
+
+          <p class="admin-note">
+            {% if round.arena_url %}
+              Teams can enter the linked arena as soon as this round is unlocked.
+            {% else %}
+              Add an arena link in the backend before unlocking this round.
+            {% endif %}
+          </p>
+
+          <form method="POST" class="admin-actions-grid">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+            <input type="hidden" name="round" value="{{ round.id }}">
+            <button
+              type="submit"
+              name="status"
+              value="unlocked"
+              class="button-primary ripple-target"
+              {% if round.status == "unlocked" %}disabled{% endif %}
+            >
+              Unlock Round
+            </button>
+            <button
+              type="submit"
+              name="status"
+              value="locked"
+              class="button-ghost ripple-target"
+              {% if round.status == "locked" %}disabled{% endif %}
+            >
+              Lock Round
+            </button>
+          </form>
+        </article>
+      {% endfor %}
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

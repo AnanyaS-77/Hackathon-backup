@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clueless-AIOT | Login</title>
+  <title>Clueless | Admin Login</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -17,49 +17,48 @@
 
   <main class="page-shell login-shell">
     <section class="hero-panel glass-panel">
-      <p class="eyebrow">You are here because we fucked up and we are...</p>
-      <h1 class="hero-title">Clueless</h1>
+      <p class="eyebrow">Control Layer</p>
+      <h1 class="hero-title">Admin</h1>
       <p class="hero-copy">
-        Enter your team access code to unlock the challenge console, track round progress,
-        and compete live on the leaderboard.
+        Lock or unlock each round from one place so every team gets access exactly when you decide.
       </p>
 
       <div class="hero-metrics">
         <div class="metric-chip">
-          <span class="metric-label">Theme</span>
-          <strong>Cyber Console</strong>
-        </div>
-        <div class="metric-chip">
           <span class="metric-label">Mode</span>
-          <strong>Live Rounds</strong>
+          <strong>Round Control</strong>
         </div>
         <div class="metric-chip">
-          <span class="metric-label">Status</span>
-          <strong>Secure Entry</strong>
+          <span class="metric-label">Scope</span>
+          <strong>All Teams</strong>
+        </div>
+        <div class="metric-chip">
+          <span class="metric-label">Access</span>
+          <strong>Admin Only</strong>
         </div>
       </div>
     </section>
 
     <section class="auth-card glass-panel glow-panel">
       <div class="panel-header">
-        <span class="panel-kicker">Access Node</span>
-        <h2>Login</h2>
-        <p>Use your assigned team code to enter the arena.</p>
+        <span class="panel-kicker">Control Access</span>
+        <h2>Admin Login</h2>
+        <p>Enter the admin password to manage round availability.</p>
       </div>
 
       <form method="POST" class="auth-form">
         <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
         <label class="input-group">
-          <span class="input-label">Team Code</span>
-          <input name="team_code" placeholder="TEAM001" autocomplete="off" required>
+          <span class="input-label">Admin Password</span>
+          <input name="password" type="password" placeholder="Enter password" required>
           <span class="input-outline"></span>
         </label>
 
-        <button type="submit" class="button-primary ripple-target">Enter Arena</button>
+        <button type="submit" class="button-primary ripple-target">Open Admin Panel</button>
       </form>
 
       <div class="stacked-actions">
-        <a href="/admin/login" class="button-ghost">Admin Access</a>
+        <a href="/" class="button-ghost">Back to Team Login</a>
       </div>
 
       <p class="error-banner {% if error %}visible{% endif %}" aria-live="polite">

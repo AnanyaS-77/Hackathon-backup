@@ -259,6 +259,20 @@ input {
   gap: 18px;
 }
 
+.stacked-actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.round-actions {
+  margin-top: 16px;
+}
+
+.round-actions > * {
+  width: 100%;
+}
+
 .input-group {
   display: grid;
   gap: 10px;
@@ -305,7 +319,8 @@ input {
 
 .button-primary,
 .button-secondary,
-.button-ghost {
+.button-ghost,
+.button-disabled {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -332,6 +347,14 @@ input {
   border-color: rgba(56, 189, 248, 0.24);
 }
 
+.button-disabled {
+  width: 100%;
+  background: rgba(148, 163, 184, 0.1);
+  color: var(--text-muted);
+  border-color: rgba(148, 163, 184, 0.16);
+  cursor: not-allowed;
+}
+
 .button-ghost {
   background: rgba(15, 23, 42, 0.54);
   color: var(--text);
@@ -356,10 +379,10 @@ input {
 }
 
 .button-primary:disabled,
+.button-disabled,
 .round-form button:disabled,
 .round-form input:disabled {
   opacity: 0.5;
-  cursor: not-allowed;
   transform: none;
   box-shadow: none;
 }
@@ -550,6 +573,27 @@ input {
   display: block;
   margin-top: 8px;
   font-size: 1.7rem;
+}
+
+.admin-stat-copy {
+  font-size: 1.2rem;
+}
+
+.admin-note {
+  margin: 0 0 18px;
+  color: var(--text-muted);
+}
+
+.admin-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.admin-warning {
+  border-color: rgba(251, 191, 36, 0.26);
+  color: #fde68a;
+  background: rgba(120, 53, 15, 0.24);
 }
 
 .leaderboard-list {
@@ -745,6 +789,10 @@ input {
 
   .topbar-actions a {
     flex: 1 1 180px;
+  }
+
+  .admin-actions-grid {
+    grid-template-columns: 1fr;
   }
 }
 
