@@ -22,23 +22,103 @@
     "timestamps": {}
   },
 
-  "XSM01K": {"team_name":"Pac Coders","answers":{"round1":"WIN-A1B2C3","round2":"WIN-D4E5F6","round3":"WIN-G7H8I9","round4":"WIN-J1K2L3"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "TST01A": {"team_name":"Test Alpha","answers":{"round1":"","round2":"WIN-E5VRAK","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "FGY02L": {"team_name":"The Outsiders","answers":{"round1":"WIN-M4N5O6","round2":"WIN-P7Q8R9","round3":"WIN-S1T2U3","round4":"WIN-V4W5X6"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "XQF01K": {"team_name":"Hungry Coders","answers":{"round1":"","round2":"WIN-HRLUVG","round3":"BLIND-Z9W3RC","round4":"QUIZ-H9X2TG"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "TRK03Z": {"team_name":"NERV","answers":{"round1":"WIN-Y7Z8A9","round2":"WIN-B1C2D3","round3":"WIN-E4F5G6","round4":"WIN-H7I8J9"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "TST02B": {"team_name":"Test Beta","answers":{"round1":"","round2":"WIN-HYRN73","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "PLX04Q": {"team_name":"error404","answers":{"round1":"WIN-K1L2M3","round2":"WIN-N4O5P6","round3":"WIN-Q7R8S9","round4":"WIN-T1U2V3"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "LMZ02P": {"team_name":"Vision","answers":{"round1":"","round2":"WIN-EMHDLB","round3":"BLIND-D7P2KH","round4":"QUIZ-U7Y5PX"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "BNM05W": {"team_name":"Lumen","answers":{"round1":"WIN-W4X5Y6","round2":"WIN-Z7A8B9","round3":"WIN-C1D2E3","round4":"WIN-F4G5H6"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "TST03C": {"team_name":"Test Gamma","answers":{"round1":"","round2":"WIN-VTBAJ5","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "QAZ06P": {"team_name":"Vision","answers":{"round1":"WIN-I7J8K9","round2":"WIN-L1M2N3","round3":"WIN-O4P5Q6","round4":"WIN-R7S8T9"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "TRX03A": {"team_name":"Anti Social","answers":{"round1":"","round2":"WIN-VN8GBJ","round3":"BLIND-H7Q3RM","round4":"QUIZ-N8K2VD"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "WSX07D": {"team_name":"STRONGLY DEPENDENT PEOPLE","answers":{"round1":"WIN-U1V2W3","round2":"WIN-X4Y5Z6","round3":"WIN-A7B8C9","round4":"WIN-D1E2F3"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "TST04D": {"team_name":"Test Delta","answers":{"round1":"","round2":"WIN-47X4BS","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "EDC08F": {"team_name":"VanGuard","answers":{"round1":"WIN-G4H5I6","round2":"WIN-J7K8L9","round3":"WIN-M1N2O3","round4":"WIN-P4Q5R6"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "KPD04M": {"team_name":"Pac Coders","answers":{"round1":"","round2":"WIN-24BYAE","round3":"BLIND-U6R1MJ","round4":"QUIZ-A6T4RM"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "RFV09G": {"team_name":"AXIS Z","answers":{"round1":"WIN-S7T8U9","round2":"WIN-V1W2X3","round3":"WIN-Y4Z5A6","round4":"WIN-B7C8D9"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+  "TST05E": {"team_name":"Test Omega","answers":{"round1":"","round2":"WIN-GVXNLH","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "TGB10H": {"team_name":"Power Rangers","answers":{"round1":"WIN-E1F2G3","round2":"WIN-H4I5J6","round3":"WIN-K7L8M9","round4":"WIN-N1O2P3"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}}
+  "QWE05X": {"team_name":"Blues Clues","answers":{"round1":"","round2":"WIN-J28PFR","round3":"BLIND-J9L4TZ","round4":"QUIZ-K1P9ZN"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "BNV06L": {"team_name":"Hakenkreuz winkerkreuz","answers":{"round1":"","round2":"WIN-KMTPPF","round3":"BLIND-P9F4XT","round4":"QUIZ-Q8Z1WC"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "HGT07Q": {"team_name":"JustChill","answers":{"round1":"","round2":"WIN-CAFYJK","round3":"BLIND-C6K2TZ","round4":"QUIZ-C3X7YA"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "YUI08P": {"team_name":"BYTE.exe","answers":{"round1":"","round2":"WIN-L6XB3X","round3":"BLIND-R1V6QM","round4":"QUIZ-U2P8XF"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "PLM09S": {"team_name":"Team RED","answers":{"round1":"","round2":"WIN-THPGVN","round3":"BLIND-Q7V2LA","round4":"QUIZ-G3F1VK"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "ASD10K": {"team_name":"AI-Drifters","answers":{"round1":"","round2":"WIN-M45F67","round3":"BLIND-M2L7QZ","round4":"QUIZ-M9K4TR"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "ZXC11D": {"team_name":"The Outsiders","answers":{"round1":"","round2":"WIN-YNLZQV","round3":"BLIND-D9X2WB","round4":"QUIZ-E9T5RJ"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "GHJ12R": {"team_name":"Bejews","answers":{"round1":"","round2":"WIN-HZT3GY","round3":"BLIND-H3M7PA","round4":"QUIZ-K9L2QT"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "IKL13W": {"team_name":"Lumina","answers":{"round1":"","round2":"WIN-FK88UG","round3":"BLIND-A7F3RB","round4":"QUIZ-P8T2GX"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "MNB14T": {"team_name":"Naughty Coders","answers":{"round1":"","round2":"WIN-DU86AR","round3":"BLIND-K3L6VF","round4":"QUIZ-N2V6LC"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "OPQ15V": {"team_name":"AXIS Z","answers":{"round1":"","round2":"WIN-G4TUUU","round3":"BLIND-B4N7YL","round4":"QUIZ-L9A7RW"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "RTY16N": {"team_name":"Pavazha Malli","answers":{"round1":"","round2":"WIN-GBDYUA","round3":"BLIND-C5T9LK","round4":"QUIZ-C9F4XE"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "FGH17B": {"team_name":"OG squad","answers":{"round1":"","round2":"WIN-KAQRXC","round3":"BLIND-Q8R2VL","round4":"QUIZ-J7M3WD"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "JKL18C": {"team_name":"Not for beginners","answers":{"round1":"","round2":"WIN-WJTBMW","round3":"BLIND-N5X9LC","round4":"QUIZ-F9Q3XB"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "VBN19E": {"team_name":"STRONGLY DEPENDENT PEOPLE","answers":{"round1":"","round2":"WIN-A6X48Y","round3":"BLIND-T8M4QL","round4":"QUIZ-F7R3KH"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "QAZ20H": {"team_name":"Bugged Out","answers":{"round1":"","round2":"WIN-5CRWD9","round3":"BLIND-P5X8WN","round4":"QUIZ-M7Q2XS"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "WSX21J": {"team_name":"TOT","answers":{"round1":"","round2":"WIN-ZAJXLH","round3":"BLIND-K2X6PA","round4":"QUIZ-Q5M8LB"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "EDC22F": {"team_name":"Alpha×Q","answers":{"round1":"","round2":"WIN-389TZW","round3":"BLIND-Z4T7KM","round4":"QUIZ-R4X6PE"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "RFV23G": {"team_name":"Power Rangers","answers":{"round1":"","round2":"WIN-LV7WWG","round3":"BLIND-Y6N3QB","round4":"QUIZ-R8D3YA"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "TGB24H": {"team_name":"DTF","answers":{"round1":"","round2":"WIN-CFYDHH","round3":"BLIND-A4W8NZ","round4":"QUIZ-J3W6PL"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "YHN25J": {"team_name":"konichiwa","answers":{"round1":"","round2":"WIN-FDRGX6","round3":"BLIND-L4T8KY","round4":"QUIZ-Z7L4KC"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "UJM26K": {"team_name":"Matrix Hunter","answers":{"round1":"","round2":"WIN-FU7YKD","round3":"BLIND-V3P9XD","round4":"QUIZ-L6T9XC"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "IKP27L": {"team_name":"Sudo rm -rf","answers":{"round1":"","round2":"WIN-L4B6VU","round3":"BLIND-T2P8KD","round4":"QUIZ-D4W7KL"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "OPL28M": {"team_name":"VanGuard","answers":{"round1":"","round2":"WIN-AZ5MG7","round3":"BLIND-G2W8QZ","round4":"QUIZ-E5J3TB"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "QWE29N": {"team_name":"The Frontmen","answers":{"round1":"","round2":"WIN-SVLAKC","round3":"BLIND-W2K7XM","round4":"QUIZ-X4L6HJ"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "RTY30P": {"team_name":"error404","answers":{"round1":"","round2":"WIN-9K5AHN","round3":"BLIND-L2X7VP","round4":"QUIZ-V5H8TR"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "UIO31Q": {"team_name":"Lumen","answers":{"round1":"","round2":"WIN-NK7KLM","round3":"BLIND-E6K2YT","round4":"QUIZ-P4Z7RF"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "PAS32R": {"team_name":"Hell on heels","answers":{"round1":"","round2":"WIN-E2X2XA","round3":"BLIND-Z1T9RF","round4":"QUIZ-Y6N8DP"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "DFG33S": {"team_name":"Phoneix","answers":{"round1":"","round2":"WIN-694CK3","round3":"BLIND-X1N5WB","round4":"QUIZ-2N8KLA"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "HJK34T": {"team_name":"Iqoo","answers":{"round1":"","round2":"WIN-ZAATYY","round3":"BLIND-V9W4XN","round4":"QUIZ-B6R9MN"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "LMN35U": {"team_name":"Compact","answers":{"round1":"","round2":"WIN-GVDXTH","round3":"BLIND-Y8T4ZX","round4":"QUIZ-W3Z9KD"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "OPR36V": {"team_name":"KARNATA PARVA","answers":{"round1":"","round2":"WIN-NNX8LZ","round3":"BLIND-X6M3KP","round4":"QUIZ-Z4X2MG"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "QST37W": {"team_name":"KD'S","answers":{"round1":"","round2":"WIN-4XLMUB","round3":"BLIND-R3F6KC","round4":"QUIZ-T8C5WL"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "UVW38X": {"team_name":"Winners Kattakada","answers":{"round1":"","round2":"WIN-ENPB5D","round3":"BLIND-F1R5ZK","round4":"QUIZ-D2A5YM"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "XYZ39Y": {"team_name":"chill champions","answers":{"round1":"","round2":"WIN-DWYBFR","round3":"BLIND-P7N5XF","round4":"QUIZ-A3V6WN"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "ABC40Z": {"team_name":"404 Brain Not Found","answers":{"round1":"","round2":"WIN-WNXVCL","round3":"BLIND-W8X3KP","round4":"QUIZ-X7P2LM"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "DEF41A": {"team_name":"DRIVEN CODERS","answers":{"round1":"","round2":"WIN-TZ2T52","round3":"BLIND-R6C8YA","round4":"QUIZ-T5H9VB"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "GHI42B": {"team_name":"Ladybugs","answers":{"round1":"","round2":"WIN-P4UU2V","round3":"BLIND-L5D9XF","round4":"QUIZ-V2F8NZ"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "JKM43C": {"team_name":"NERV","answers":{"round1":"","round2":"WIN-N3ZWM7","round3":"BLIND-E3W7QY","round4":"QUIZ-H2L8VE"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "NOP44D": {"team_name":"CAPTAIN UNDERPANTS","answers":{"round1":"","round2":"WIN-5EUNVB","round3":"BLIND-S9X5TR","round4":"QUIZ-S8K1QF"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "RST45E": {"team_name":"Team RED","answers":{"round1":"","round2":"WIN-XEG3DS","round3":"BLIND-M8R1XF","round4":"QUIZ-B2N7QM"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}}
 }

@@ -46,7 +46,7 @@ SENSITIVE_PATHS = {
 
 
 def get_admin_password():
-    return os.environ.get("ADMIN_PASSWORD", "NAMIT")
+    return os.environ.get("ADMIN_PASSWORD", "SystemAdmin123")
 
 
 def verify_admin_password(raw_password):
