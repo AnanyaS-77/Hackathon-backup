@@ -120,5 +120,17 @@
 
   "NOP44D": {"team_name":"CAPTAIN UNDERPANTS","answers":{"round1":"","round2":"WIN-5EUNVB","round3":"BLIND-S9X5TR","round4":"QUIZ-S8K1QF"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
 
-  "RST45E": {"team_name":"Team RED","answers":{"round1":"","round2":"WIN-XEG3DS","round3":"BLIND-M8R1XF","round4":"QUIZ-B2N7QM"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}}
+  "RST45E": {"team_name":"Team RED","answers":{"round1":"","round2":"WIN-XEG3DS","round3":"BLIND-M8R1XF","round4":"QUIZ-B2N7QM"},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "PLM64X": {"team_name":"Pavazha Malli","answers":{"round1":"","round2":"WIN-J9X5TR","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "ZNX57Q": {"team_name":"The Outsiders","answers":{"round1":"","round2":"WIN-Q7L2XM","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "KRV82M": {"team_name":"Hakenkreuz winkerkreuz","answers":{"round1":"","round2":"WIN-R8D4KP","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "ANQ91T": {"team_name":"Animes","answers":{"round1":"","round2":"WIN-B3V8LA","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "ALX38D": {"team_name":"AlphaQ","answers":{"round1":"","round2":"WIN-M6N2CY","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}},
+
+  "GST75K": {"team_name":"Gaslighters","answers":{"round1":"","round2":"WIN-Z4H9QW","round3":"","round4":""},"attempts":{"round1":0,"round2":0,"round3":0,"round4":0},"completed":{"round1":false,"round2":false,"round3":false,"round4":false},"timestamps":{}}
 }
