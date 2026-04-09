@@ -27,7 +27,7 @@ ROUND_ARENA_URLS = {
     "round1": "",
     "round2": "https://digit-manipulation.replit.app/",
     "round3": "https://code-arena.replit.app/",
-    "round4": "",
+    "round4": "https://quiz-master-game.replit.app/",
 }
 TEAM_CODE_RE = re.compile(r"^[A-Z0-9]{3,32}$")
 MAX_ANSWER_LENGTH = 64
