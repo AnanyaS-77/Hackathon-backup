@@ -54,9 +54,6 @@ def verify_admin_password(raw_password):
     if password_hash:
         return check_password_hash(password_hash, raw_password)
 
-    if os.environ.get("FLASK_ENV") == "production" and "ADMIN_PASSWORD" not in os.environ:
-        raise RuntimeError("ADMIN_PASSWORD or ADMIN_PASSWORD_HASH must be set in production.")
-
     return raw_password == get_admin_password()
 
 

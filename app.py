@@ -1,5 +1,6 @@
 import os
 import secrets
+import tempfile
 from datetime import timedelta
 
 from flask import Flask
@@ -36,12 +37,23 @@ def get_secret_key():
     return secrets.token_hex(32)
 
 
+def get_database_path(root_path):
+    configured_path = os.environ.get("DATABASE_PATH")
+    if configured_path:
+        return configured_path
+
+    if os.environ.get("VERCEL") == "1":
+        return os.path.join(tempfile.gettempdir(), "arena.sqlite3")
+
+    return os.path.join(root_path, "arena.sqlite3")
+
+
 def create_app():
     load_env_file()
     app = Flask(__name__)
     app.config.update(
         SECRET_KEY=get_secret_key(),
-        DATABASE=os.path.join(app.root_path, "arena.sqlite3"),
+        DATABASE=get_database_path(app.root_path),
         SESSION_COOKIE_HTTPONLY=True,
         SESSION_COOKIE_SAMESITE="Lax",
         SESSION_COOKIE_SECURE=(
