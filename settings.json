@@ -1,8 +1,8 @@
 {
     "round_status": {
-        "round1": "locked",
-        "round2": "locked",
-        "round3": "locked",
-        "round4": "locked"
+        "round1": "unlocked",
+        "round2": "unlocked",
+        "round3": "unlocked",
+        "round4": "unlocked"
     }
 }

@@ -63,13 +63,13 @@
               <p class="round-kicker">Challenge Node {{ "%02d" % loop.index }}</p>
               <h2>
                 {% if round.id == "round1" %}
-                  Game 1: The Road Not Taken
+                  Game 1: The Road Not Taken (The Treasure Hunt)
                 {% elif round.id == "round2" %}
-                  Game 2: Taare Zameen Par
+                  Game 2: Your SIX can be my NINE (Digit Manipulation)
                 {% elif round.id == "round3" %}
-                  Game 3: Andhadhun
+                  Game 3: See for yourself (Blind Code)
                 {% elif round.id == "round4" %}
-                  Game 4: Tu samjha? Naii tu nai Samjha
+                  Game 4: It is what it isn't (Unscramble the Quiz)
                 {% else %}
                   {{ round.label }}
                 {% endif %}
